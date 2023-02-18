@@ -57,5 +57,6 @@ print(grades['Eva'])
 print('Виведення оцінки Валлі через крапку')
 print(grades.Wally)
 
+print(f'Тип елемента базової колекції array: {grades.dtype}')
 
 
