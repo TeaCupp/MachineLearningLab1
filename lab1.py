@@ -41,3 +41,7 @@ print(f'Максимальне значення: \n{grades.max()}')
 
 print(f'Стандартне відхилення: \n{grades.std()}')
 
+print(f'Опис оцінок: \n{grades.describe()}')
+
+
+
