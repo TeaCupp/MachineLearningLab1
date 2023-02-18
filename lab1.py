@@ -1,4 +1,5 @@
 import statistics
+import math
 
 grades = [85, 93, 45, 89, 85]
 
@@ -13,3 +14,7 @@ print(f'Медіана, рахована за допомогою модуля st
 print(f'Мода, рахована за допомогою модуля statistics: {statistics.mode(grades)}')
 
 print(f'Дисперсією генеральної сукупності: {statistics.pvariance([1, 3, 4, 2, 6, 5, 3, 4, 5, 2])}')
+
+print(f'Стандартне відхилення: {statistics.pstdev([1, 3, 4, 2, 6, 5, 3, 4, 5, 2])}')
+
+print(f'Стандартне відхилення, раховане ручним методом: {math.sqrt(statistics.pvariance([1, 3, 4, 2, 6, 5, 3, 4, 5, 2]))}')
