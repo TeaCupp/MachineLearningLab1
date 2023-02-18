@@ -67,4 +67,6 @@ print(hardware)
 
 print(hardware.str.contains('a'))
 
+print(hardware.str.upper())
+
 
