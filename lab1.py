@@ -61,5 +61,8 @@ print(f'Тип елемента базової колекції array: {grades.d
 
 print(grades.values)
 
+hardware = pd.Series(['Hammer', 'Saw', 'Wrench'])
+
+print(hardware)
 
 
