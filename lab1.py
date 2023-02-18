@@ -59,14 +59,15 @@ print(grades.Wally)
 
 print(f'Тип елемента базової колекції array: {grades.dtype}')
 
-print(grades.values)
+print(f'Виведення значень оцінок: {grades.values}')
 
 hardware = pd.Series(['Hammer', 'Saw', 'Wrench'])
 
-print(hardware)
+print(f'Виведення списку з буквенними значеннями: {hardware}')
 
+print('Перевірка чи містить колекція символ а: ')
 print(hardware.str.contains('a'))
 
-print(hardware.str.upper())
+print(f'Переведення колекції в верхній регістр: \n{hardware.str.upper()}')
 
 
