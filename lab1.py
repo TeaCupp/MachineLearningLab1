@@ -27,5 +27,7 @@ print(f'Стандартне відхилення: {statistics.pstdev([1, 3, 4, 
 print(f'Стандартне відхилення, раховане ручним методом: {math.sqrt(statistics.pvariance([1, 3, 4, 2, 6, 5, 3, 4, 5, 2]))}')
 
 grades = pd.Series([87, 100, 94])
-print(grades)
+print(f'Виведення колекції Series з різними значеннями: \n{grades}')
+
+print(f'Виведення колекції Series з однаковими значеннями: \n{pd.Series(98.6, range(3))}')
 
