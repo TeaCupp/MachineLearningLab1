@@ -47,4 +47,9 @@ grades = pd.Series([87, 100, 94], index=['Wally', 'Eva', 'Sam'])
 
 print(f'Виведення колекції Series з різними значеннями та особливими індексами: \n{grades}')
 
+grades = pd.Series({'Wally': 87, 'Eva': 100, 'Sam': 94})
+
+print(f'Виведення колекції Series за допомогою ініціалізації словником: \n{grades}')
+
+
 
