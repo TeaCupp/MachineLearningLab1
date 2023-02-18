@@ -65,4 +65,6 @@ hardware = pd.Series(['Hammer', 'Saw', 'Wrench'])
 
 print(hardware)
 
+print(hardware.str.contains('a'))
+
 
