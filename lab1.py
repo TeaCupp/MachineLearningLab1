@@ -51,5 +51,11 @@ grades = pd.Series({'Wally': 87, 'Eva': 100, 'Sam': 94})
 
 print(f'Виведення колекції Series за допомогою ініціалізації словником: \n{grades}')
 
+print('Виведення оцінки Єви за особливим індексом')
+print(grades['Eva'])
+
+print('Виведення оцінки Валлі через крапку')
+print(grades.Wally)
+
 
 
