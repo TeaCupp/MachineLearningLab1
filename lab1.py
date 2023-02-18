@@ -1,5 +1,12 @@
 import statistics
 import math
+import matplotlib.pyplot as plt
+import numpy as np
+import random
+import seaborn as sns
+import pandas as pd
+
+
 
 grades = [85, 93, 45, 89, 85]
 
@@ -18,3 +25,7 @@ print(f'Дисперсією генеральної сукупності: {stati
 print(f'Стандартне відхилення: {statistics.pstdev([1, 3, 4, 2, 6, 5, 3, 4, 5, 2])}')
 
 print(f'Стандартне відхилення, раховане ручним методом: {math.sqrt(statistics.pvariance([1, 3, 4, 2, 6, 5, 3, 4, 5, 2]))}')
+
+grades = pd.Series([87, 100, 94])
+print(grades)
+
