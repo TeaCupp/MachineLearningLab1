@@ -59,4 +59,7 @@ print(grades.Wally)
 
 print(f'Тип елемента базової колекції array: {grades.dtype}')
 
+print(grades.values)
+
+
 
