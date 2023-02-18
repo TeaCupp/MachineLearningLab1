@@ -43,5 +43,8 @@ print(f'Стандартне відхилення: \n{grades.std()}')
 
 print(f'Опис оцінок: \n{grades.describe()}')
 
+grades = pd.Series([87, 100, 94], index=['Wally', 'Eva', 'Sam'])
+
+print(f'Виведення колекції Series з різними значеннями та особливими індексами: \n{grades}')
 
 
